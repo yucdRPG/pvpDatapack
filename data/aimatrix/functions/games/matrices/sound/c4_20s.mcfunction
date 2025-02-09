@@ -1,0 +1,1 @@
+execute as @a at @s if score clock bomb_planted matches 1 run playsound minecraft:entity.experience_orb.pickup master @s

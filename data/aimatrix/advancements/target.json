@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "atk": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "source_entity": {
+                    "type": "minecraft:player"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "aimatrix:games/matrices/damage_statistics/tags/tag_target"
+    }
+}

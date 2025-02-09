@@ -1,0 +1,1 @@
+clear @a combatdepot:general_terminal

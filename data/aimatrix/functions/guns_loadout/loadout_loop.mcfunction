@@ -1,0 +1,9 @@
+#末影箱选枪检测
+function aimatrix:guns_loadout/trigger_detect
+function aimatrix:guns_loadout/loadout_build
+function aimatrix:guns_loadout/loadout_detect
+function aimatrix:guns_loadout/aim_practice
+function aimatrix:guns_loadout/trigger_loadout_reset
+
+
+schedule function aimatrix:guns_loadout/loadout_loop 1t append

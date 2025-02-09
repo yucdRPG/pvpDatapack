@@ -1,0 +1,1 @@
+item replace entity @a hotbar.8 with combatdepot:general_terminal

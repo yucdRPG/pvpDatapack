@@ -1,0 +1,34 @@
+scoreboard players set clock mvp 0
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+execute as @a if score @s killstreak > clock mvp run scoreboard players operation clock mvp = @s killstreak
+tag @a remove mvp
+execute as @a if score @s killstreak = clock mvp run tag @s add mvp
