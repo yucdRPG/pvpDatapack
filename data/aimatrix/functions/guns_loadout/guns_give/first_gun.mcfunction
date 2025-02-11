@@ -58,3 +58,4 @@ execute as @a[team=Blue] if score @s rifle matches 15 run item replace entity @s
 
 
 
+

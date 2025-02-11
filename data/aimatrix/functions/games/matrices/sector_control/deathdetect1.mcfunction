@@ -37,7 +37,6 @@ execute as @a[scores={death=1}] run scoreboard players set @s streak_reward_use2
 execute as @a[scores={death=1}] run scoreboard players set @s streak_reward_use3 0
 
 
-function aimatrix:guns_loadout/guns_give/attachment
 
 
 execute as @a[scores={death=1}] run scoreboard players set @s death 0
