@@ -13,9 +13,4 @@ execute as @a[team=Blue] if score @s pistol matches 5 run item replace entity @s
 execute as @a[team=Red] run item replace entity @s hotbar.2 with iron_sword{display:{Name:'["",{"text":"战术长剑","italic":false}]'},Enchantments:[{lvl:24,id:sharpness},{lvl:100,id:unbreaking}],HideFlags:1}
 execute as @a[team=Blue] run item replace entity @s hotbar.2 with iron_sword{display:{Name:'["",{"text":"战术长剑","italic":false}]'},Enchantments:[{lvl:24,id:sharpness},{lvl:100,id:unbreaking}],HideFlags:1}
 
-execute as @a run item replace entity @s inventory.0 with tacz:attachment{AttachmentId:"jak:sight_jak_glassless"}
-execute as @a run item replace entity @s inventory.1 with tacz:attachment{AttachmentId:"jak:sight_mors_dot_sight"}
-execute as @a run item replace entity @s inventory.2 with tacz:attachment{AttachmentId:"jak:sight_mk3_reflector"}
-execute as @a run item replace entity @s inventory.3 with tacz:attachment{AttachmentId:"tacz:scope_standard_8x"}
-execute as @a run item replace entity @s inventory.4 with tacz:attachment{AttachmentId:"iw:sight_elo"}
-
+function aimatrix:guns_loadout/guns_give/attachment
