@@ -21,4 +21,6 @@ execute as @s if score @s pistol matches 5 run item replace entity @s hotbar.1 w
 
 execute as @s run item replace entity @s hotbar.2 with iron_sword{display:{Name:'["",{"text":"战术长剑","italic":false}]'},Enchantments:[{lvl:24,id:sharpness},{lvl:100,id:unbreaking}],HideFlags:1}
 
+function aimatrix:guns_loadout/guns_give/attachment
+
 execute as @s run tellraw @a {"text": "\u00a77[TRIGGER] ","extra": [{"selector": "@s"},{"text": "\u00a77 使用了强制获得枪械指令。"}]}

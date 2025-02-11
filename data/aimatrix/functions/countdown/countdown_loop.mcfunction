@@ -1,3 +1,4 @@
+#逻辑核心循环
 #计时器基础功能
 scoreboard players remove clock countdown 1
 scoreboard players remove clock match_cd 1
@@ -143,7 +144,7 @@ execute as @a if score @s hurt matches 0 run scoreboard players set @s hurt_1 2
 execute as @a if score @s hurt_1 matches 1 run scoreboard players set @s hurt_2 0
 execute as @a if score @s health matches 20 run scoreboard players set @s hurt_2 0
 execute as @a if score @s hurt_1 matches 2 run scoreboard players add @s hurt_2 1
-execute as @a if score @s hurt_2 matches 140.. run effect give @s regeneration 2 5 true
+execute as @a if score @s hurt_2 matches 140.. run effect give @s regeneration 5 6 true
 execute as @a at @s if score @s hurt_2 matches 140 run playsound minecraft:block.brewing_stand.brew master @s
 execute as @a if score @s hurt_2 matches 0..20 run effect clear @s regeneration
 
@@ -161,6 +162,6 @@ kill @e[type=experience_orb]
 clear @a[team=Red] shears 1
 
 #血量修改
-execute as @a run attribute @s minecraft:generic.max_health base set 20
+execute as @a run attribute @s minecraft:generic.max_health base set 100
 
 schedule function aimatrix:countdown/countdown_loop 1t append 
