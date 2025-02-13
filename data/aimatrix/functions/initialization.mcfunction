@@ -93,7 +93,7 @@ scoreboard players set clock ui_enable 0
 
 #计时核心 对局开启倒计时
 scoreboard objectives add match_cd dummy
-scoreboard players set clock match_cd 1200
+scoreboard players set clock match_cd 100
 schedule clear aimatrix:matchstart/match_cooldown
 function aimatrix:matchstart/match_cooldown
 

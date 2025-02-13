@@ -25,6 +25,11 @@ fill 227 90 -203 227 88 -204 glass replace
 scoreboard players set clock countdown 160
 function aimatrix:games/maps/competitive/twin_tower/6_launch_matrices
 schedule function aimatrix:guns_loadout/loadout_item 10t append
+
+execute as @r if score clock round matches 2..7 run function aimatrix:guns_loadout/guns_give/first_gun
+execute as @r if score clock round matches 9..15 run function aimatrix:guns_loadout/guns_give/first_gun
+execute as @r run function aimatrix:guns_loadout/guns_give/second_gun
+
 schedule function aimatrix:games/maps/competitive/twin_tower/2_replace_blocks 30t append
 schedule function aimatrix:games/maps/competitive/twin_tower/3_replace_blocks 60t append
 schedule function aimatrix:games/maps/competitive/twin_tower/2_replace_blocks 90t append

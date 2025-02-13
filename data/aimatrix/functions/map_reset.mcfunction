@@ -64,7 +64,7 @@ scoreboard players set clock Csector 0
 xp set @a 0 levels
 xp set @a 0 points
 
-execute as @a run attribute @s minecraft:generic.max_health base set 20
+execute as @a run attribute @s minecraft:generic.max_health base set 100
 effect give @a instant_health 1 8 true
 
 scoreboard players set clock countdown 99999999

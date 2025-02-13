@@ -51,3 +51,7 @@ schedule function aimatrix:games/maps/competitive/test_map/2_replace_blocks 90t 
 schedule function aimatrix:games/maps/competitive/test_map/3_replace_blocks 120t append
 schedule function aimatrix:games/maps/competitive/test_map/4_destroy_blocks 140t append
 schedule function aimatrix:games/maps/competitive/test_map/5_destroy_start 160t append
+
+execute as @r if score clock round matches 2..7 run function aimatrix:guns_loadout/guns_give/first_gun
+execute as @r if score clock round matches 9..15 run function aimatrix:guns_loadout/guns_give/first_gun
+execute as @r run function aimatrix:guns_loadout/guns_give/second_gun

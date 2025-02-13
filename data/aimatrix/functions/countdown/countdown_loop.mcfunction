@@ -142,11 +142,11 @@ execute as @a if score map_number_recorder mode matches 6 if score map_number_re
 execute as @a if score @s hurt matches 1.. run scoreboard players set @s hurt_1 1
 execute as @a if score @s hurt matches 0 run scoreboard players set @s hurt_1 2
 execute as @a if score @s hurt_1 matches 1 run scoreboard players set @s hurt_2 0
-execute as @a if score @s health matches 20 run scoreboard players set @s hurt_2 0
+execute as @a if score @s health matches 100 run scoreboard players set @s hurt_2 0
 execute as @a if score @s hurt_1 matches 2 run scoreboard players add @s hurt_2 1
 execute as @a if score @s hurt_2 matches 140.. run effect give @s regeneration 5 6 true
 execute as @a at @s if score @s hurt_2 matches 140 run playsound minecraft:block.brewing_stand.brew master @s
-execute as @a if score @s hurt_2 matches 0..20 run effect clear @s regeneration
+execute as @a if score @s hurt_2 matches 0..100 run effect clear @s regeneration
 
 execute as @a run scoreboard players set @s hurt 0
 

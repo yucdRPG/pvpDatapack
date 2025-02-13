@@ -23,6 +23,9 @@ scoreboard players set clock ui_enable 1
 
 schedule function aimatrix:guns_loadout/loadout_item 10t append
 
+execute as @r run function aimatrix:guns_loadout/guns_give/first_gun
+execute as @r run function aimatrix:guns_loadout/guns_give/second_gun
+
 schedule function aimatrix:games/maps/teamdeathmatch/vondel_waterfront_tdm/2_replace_blocks 30t append
 schedule function aimatrix:games/maps/teamdeathmatch/vondel_waterfront_tdm/3_replace_blocks 60t append
 schedule function aimatrix:games/maps/teamdeathmatch/vondel_waterfront_tdm/2_replace_blocks 90t append
