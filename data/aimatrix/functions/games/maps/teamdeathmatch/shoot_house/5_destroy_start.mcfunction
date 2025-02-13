@@ -6,3 +6,5 @@ execute as @a at @s run playsound superbwarfare:cannon_zoom_in master @s
 title @a title ""
 title @a subtitle ""
 effect give @a instant_health 1 8 true
+
+execute as @a at @s run clear @s tacz:attachment

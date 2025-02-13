@@ -10,3 +10,6 @@ title @a title ""
 title @a subtitle ""
 effect give @a instant_health 1 8 true
 scoreboard players set clock fight_begin 1
+
+
+execute as @a at @s run clear @s tacz:attachment

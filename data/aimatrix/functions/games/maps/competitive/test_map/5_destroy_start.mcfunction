@@ -6,3 +6,5 @@ scoreboard players set clock countdown 2400
 title @a title ""
 title @a subtitle ""
 effect give @a instant_health 1 8 true
+
+execute as @a at @s run clear @s tacz:attachment
