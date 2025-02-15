@@ -32,7 +32,7 @@ kill @e[type=item,nbt={Item:{id:"minecraft:leather_helmet"}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:leather_leggings"}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:leather_boots"}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:slime_ball"}}]
-kill @e[type=item,nbt={Item:{id:"combatdepot:general_terminal"}}]
+kill @e[type=item,nbt={Item:{id:"combatdepot:distribution_terminal"}}]
 kill @e[type=item,nbt={Item:{id:"minecraft:iron_sword"}}]
 kill @e[type=item,nbt={Item:{id:"dummmmmmy:target_dummy"}}]
 

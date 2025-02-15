@@ -18,8 +18,8 @@ scoreboard players set clock Csector_status 0
 schedule function aimatrix:games/maps/conquest/signal_transmission_station/1_tp_players 19s append
 schedule function aimatrix:games/maps/conquest/signal_transmission_station/map_preview 110t append
 schedule function aimatrix:games/maps/conquest/signal_transmission_station/map_preview2 7s append
-schedule function aimatrix:games/maps/conquest/signal_transmission_station/map_preview3 27s append
-schedule function aimatrix:games/maps/conquest/signal_transmission_station/map_preview4 30s append
-schedule function aimatrix:games/maps/conquest/signal_transmission_station/map_preview5 33s append
+schedule function aimatrix:games/maps/conquest/signal_transmission_station/map_preview3 10s append
+schedule function aimatrix:games/maps/conquest/signal_transmission_station/map_preview4 13s append
+schedule function aimatrix:games/maps/conquest/signal_transmission_station/map_preview5 16s append
 
 function aimatrix:games/matrices/damage_statistics/statistics/damage

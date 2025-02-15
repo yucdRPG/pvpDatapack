@@ -13,7 +13,7 @@ item replace entity @a[team=Blue] armor.chest with minecraft:leather_chestplate{
 item replace entity @a[team=Blue] armor.legs with minecraft:leather_leggings{Damage:0,display:{color:2500784}}
 item replace entity @a[team=Blue] armor.feet with minecraft:leather_boots{Damage:0,display:{color:2500784}}
 
-clear @a combatdepot:general_terminal
+
 
 execute as @r run function aimatrix:guns_loadout/guns_give/second_gun
 
