@@ -19,6 +19,8 @@ tag @a remove dead
 tag @a remove bombtaker
 gamemode adventure @a
 
+gamerule keepInventory false 
+
 scoreboard players set clock fight_begin 2
 
 fill 1824 -2 -344 1817 3 -344 glass replace

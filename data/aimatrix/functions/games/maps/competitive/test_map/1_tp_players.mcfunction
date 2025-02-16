@@ -55,3 +55,5 @@ schedule function aimatrix:games/maps/competitive/test_map/5_destroy_start 160t 
 execute as @r if score clock round matches 2..7 run function aimatrix:guns_loadout/guns_give/first_gun
 execute as @r if score clock round matches 9..15 run function aimatrix:guns_loadout/guns_give/first_gun
 execute as @r run function aimatrix:guns_loadout/guns_give/second_gun
+
+gamerule keepInventory false 

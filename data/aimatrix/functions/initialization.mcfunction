@@ -18,7 +18,7 @@ gamerule drowningDamage true
 gamerule fallDamage true
 gamerule fireDamage true
 gamerule freezeDamage false
-gamerule keepInventory false 
+gamerule keepInventory true 
 gamerule naturalRegeneration false
 gamerule randomTickSpeed 0
 gamerule sendCommandFeedback false
